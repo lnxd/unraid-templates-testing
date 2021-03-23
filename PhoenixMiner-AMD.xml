@@ -6,7 +6,7 @@
   <Network>bridge</Network>
   <Shell>sh</Shell>
   <Privileged>true</Privileged>
-  <Support>https://github.com/lnxd/docker-phoenixminer</Support>
+  <Support>https://forums.unraid.net/topic/104589-support-lnxd-phoenixminer-amd/</Support>
   <Overview>Phoenixminer containerised with AMD GPUs and Unraid in mind. Contains AMD drivers.</Overview>
   <WebUI>http://[IP]:[PORT:5450]</WebUI>
   <Icon>https://raw.githubusercontent.com/lnxd/docker-phoenixminer/main/phoenixminer-logo.png</Icon>
