@@ -11,8 +11,8 @@
   <WebUI>http://[IP]:[PORT:5450]</WebUI>
   <Icon>https://raw.githubusercontent.com/lnxd/docker-phoenixminer/main/phoenixminer-logo.png</Icon>
   <DonateLink>https://paypal.me/lnxdau</DonateLink>
-  <DonateText>If you like my work please consider Donating.</DonateText>
-  <Description>Phoenixminer containerised with AMD GPUs and Unraid in mind. Contains AMD drivers.</Description>
+  <DonateText>If you like my work please consider donating.</DonateText>
+  <Description>Containerised version of PhoenixMiner for AMD GPUs. Helps turn your Unraid server into an Ethereum / cryptocurrency mining rig. Contains AMD drivers. Not affected by the AMD reset bug as it doesn't rely on vfio. Check the support link for detailed installation instructions.</Description>
   <Networking>
     <Mode>bridge</Mode>
     <Publish>
