@@ -12,6 +12,7 @@
   <DonateLink>https://paypal.me/lnxdau</DonateLink>
   <DonateText>If you like my work please consider donating.</DonateText>
   <Description>Like to maintain your own data? Automatically backup your github account to your Unraid server on a schedule.</Description>
+  <TemplateURL>false</TemplateURL>
   <Networking>
     <Mode>bridge</Mode>
     <Publish/>

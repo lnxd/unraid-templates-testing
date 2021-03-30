@@ -13,6 +13,7 @@
   <DonateLink>https://paypal.me/lnxdau</DonateLink>
   <DonateText>If you like my work please consider donating.</DonateText>
   <Description>Simple container for displaying stats from any PhoenixMiner instance. Made to go with PhoenixMiner-AMD.</Description>
+  <TemplateURL>false</TemplateURL>
   <Networking>
     <Mode>bridge</Mode>
     <Publish>
