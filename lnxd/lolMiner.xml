@@ -14,5 +14,5 @@
   <Config Name="Pool Password" Target="PASSWORD" Default="x" Mode="" Description="Most pools just use 'x' as password, some pools treat this variable as a worker ID" Type="Variable" Display="always" Required="true" Mask="false">x</Config>
   <Config Name="GPU Device" Target="" Default="" Mode="" Description="GPU passthrough from host to container. This Isn't necessary if privileged mode is enabled, but won't hurt." Type="Device" Display="always" Required="false" Mask="false">/dev/dri:/dev/dri</Config>
   <Config Name="Algorithm" Target="ALGO" Default="ETHASH" Mode="" Description="Container Variable: COIN" Type="Variable" Display="always" Required="false" Mask="false">ETHASH</Config>
-  <Config Name="Additional" Target="ADDITIONAL" Default="" Mode="" Description="Container Variable: ADDITIONAL" Type="Variable" Display="always" Required="false" Mask="false">--nocolor --help</Config>
+  <Config Name="Additional" Target="ADDITIONAL" Default="" Mode="" Description="Container Variable: ADDITIONAL" Type="Variable" Display="always" Required="false" Mask="false">--nocolor</Config>
 </Container>
