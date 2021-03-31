@@ -14,53 +14,6 @@
   <DonateText>If you like my work please consider donating.</DonateText>
   <Description>Containerised version of PhoenixMiner. Helps turn your Unraid server into an Ethereum / cryptocurrency mining rig. Contains AMD drivers. Not affected by the AMD reset bug as it doesn't rely on vfio. Also works with most NVIDIA cards. Check the support link for detailed installation instructions.</Description>
   <TemplateURL>false</TemplateURL>
-  <Networking>
-    <Mode>bridge</Mode>
-    <Publish>
-      <Port>
-        <HostPort>5450</HostPort>
-        <ContainerPort>5450</ContainerPort>
-        <Protocol>tcp</Protocol>
-      </Port>
-    </Publish>
-  </Networking>
-  <Environment>
-    <Variable>
-      <Value>0xe037C6245910EbBbA720514835d31B385D76927f</Value>
-      <Name>WALLET</Name>
-      <Mode/>
-    </Variable>
-    <Variable>
-      <Value>asia1.ethermine.org:4444</Value>
-      <Name>POOL</Name>
-      <Mode/>
-    </Variable>
-    <Variable>
-      <Value>x</Value>
-      <Name>PASSWORD</Name>
-      <Mode/>
-    </Variable>
-    <Variable>
-      <Value>75</Value>
-      <Name>TT</Name>
-      <Mode/>
-    </Variable>
-    <Variable>
-      <Value>90</Value>
-      <Name>TSTOP</Name>
-      <Mode/>
-    </Variable>
-    <Variable>
-      <Value>85</Value>
-      <Name>TSTART</Name>
-      <Mode/>
-    </Variable>
-    <Variable>
-      <Value>-amd</Value>
-      <Name>ADDITIONAL</Name>
-      <Mode/>
-    </Variable>
-  </Environment>
   <Config Name="Wallet Address" Target="WALLET" Default="0xe037C6245910EbBbA720514835d31B385D76927f" Mode="" Description="Wallet address for receiving mined coin" Type="Variable" Display="always" Required="true" Mask="false">0xe037C6245910EbBbA720514835d31B385D76927f</Config>
   <Config Name="Pool Address" Target="POOL" Default="asia1.ethermine.org:4444" Mode="" Description="Address for your mining pool" Type="Variable" Display="always" Required="true" Mask="false">asia1.ethermine.org:4444</Config>
   <Config Name="Pool Password" Target="PASSWORD" Default="x" Mode="" Description="Most pools just use 'x' as password, some pools treat this variable as a worker ID" Type="Variable" Display="always" Required="true" Mask="false">x</Config>
