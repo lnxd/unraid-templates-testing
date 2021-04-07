@@ -3,6 +3,7 @@
   <Name>github-backup</Name>
   <Repository>lnxd/github-backup</Repository>
   <Registry>https://hub.docker.com/r/lnxd/github-backup</Registry>
+  <Network>bridge</Network>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
   <Support>https://forums.unraid.net/topic/104738-support-lnxd-github-backup/</Support>
@@ -10,6 +11,7 @@
   <Icon>https://raw.githubusercontent.com/lnxd/docker-github-backup/master/github-backup-logo.png</Icon>
   <DonateLink>https://github.com/lnxd</DonateLink>
   <DonateText>If you like my work please consider donating.</DonateText>
+  <Category>Backup:</Category>
   <Description>Like to maintain your own data? Automatically backup your github account to your Unraid server on a schedule.</Description>
   <TemplateURL>false</TemplateURL>
   <Config Name="Token" Target="TOKEN" Default="1a2b3c4d5e6f71a2b3c4d5e6f71a2b3c4d5e6f7b" Mode="" Description="Get your token from https://github.com/settings/tokens, see the support page for more details." Type="Variable" Display="always" Required="false" Mask="false">1a2b3c4d5e6f71a2b3c4d5e6f71a2b3c4d5e6f7b</Config>
