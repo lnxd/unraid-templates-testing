@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>Chia</Name>
+  <Repository>ghcr.io/chia-network/chia:latest</Repository>
+  <Registry>https://ghcr.io/chia-network/chia</Registry>
+  <Shell>sh</Shell>
+  <Privileged>true</Privileged>
+  <Category/>
+  <TemplateURL>false</TemplateURL>
+  <Support></Support>
+  <DonateLink>https://github.com/lnxd</DonateLink>
+  <DonateText>If you like my work please consider donating.</DonateText>
+  <Icon>https://avatars.githubusercontent.com/u/34047804?s=200&amp;amp;v=4</Icon>
+  <Config Name="Farming Mode" Target="farmer" Default="" Mode="" Description="Container Variable: farmer" Type="Variable" Display="always" Required="false" Mask="false">true</Config>
+  <Config Name="Plots Location" Target="/chia-blockchain/plots" Default="/mnt/user/Chia" Mode="rw" Description="Container Path: plots" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/Chia</Config>
+</Container>
