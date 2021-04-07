@@ -12,5 +12,5 @@
   <DonateText>If you like my work please consider donating.</DonateText>
   <Icon>https://avatars.githubusercontent.com/u/34047804?s=200&amp;amp;v=4</Icon>
   <Config Name="Farming Mode" Target="farmer" Default="" Mode="" Description="Container Variable: farmer" Type="Variable" Display="always" Required="false" Mask="false">true</Config>
-  <Config Name="Plots Location" Target="/chia-blockchain/plots" Default="/mnt/user/Chia" Mode="rw" Description="Container Path: plots" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/Chia</Config>
+  <Config Name="Plots Location" Target="/plots" Default="/mnt/user/Chia" Mode="rw" Description="Container Path: plots" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/Chia</Config>
 </Container>
